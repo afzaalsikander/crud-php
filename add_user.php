@@ -1,5 +1,5 @@
 <?php
-
+// This is our Backend Code
 require_once('conn.php');
 $conn = DBConnect();
 $fnerr = $lnerr = $emerr = $grerr = $slerr = $aderr = "";
