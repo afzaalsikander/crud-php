@@ -95,13 +95,13 @@ if(isset($_POST['submit'])){
         <span><?php echo $lnerr ?></span>
     </div>
     <div class='form-group'>
-        <label for='exampleInputEmail1'>Email</label>
+        <label for='exampleInputEmail1'>Your Email </label>
         <input type='email' value="<?php if(isset($_POST['user_email'])) echo $_POST['user_email'] ?>" name='user_email' class='form-control' id='exampleInputEmail1' aria-describedby='emailHelp' placeholder='Enter Your Email'>
         <span><?php echo $emerr ?></span>
     </div>
 
     <div class='form-group'>
-    <label for='Gender' >Gender</label>
+    <label for='Gender' >Gender Name</label>
     <div class='form-check form-check-inline'>
     <input class='form-check-input' type='radio' value='Male' <?php if (isset($_POST['user_gender']) && $_POST['user_gender'] == "Male") { echo "checked"; } ?>  name='user_gender' id='inlineRadio1'>
     <label class='form-check-label' for='inlineRadio1'>Male</label>
